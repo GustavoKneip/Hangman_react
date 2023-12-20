@@ -1,0 +1,30 @@
+@import "../../../assets/styles/global.css";
+
+.main_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    font-family: var(--font-family);
+
+}
+
+
+.main_image{
+    margin-top: 3%;
+    width:40%;
+}
+
+.main_button{
+    font-size: 70px;
+    padding: 0px 70px;
+    font-family: var(--font-family);
+    background: none;
+    border: none;
+    width: min-content;
+}
+.main_button:hover{
+    color:blue;
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Short Stack';
+    src: url('../fonts/ShortStack-Regular.ttf') format('truetype');
+    /* Add additional formats for cross-browser compatibility if needed */
+}
+:root{
+    --font-family: 'Short Stack', cursive;
+    /* font-family: 'Short Stack', cursive; */
+}
